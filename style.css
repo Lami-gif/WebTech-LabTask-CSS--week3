@@ -1,0 +1,98 @@
+ body {
+    background-color: rgb(217, 223, 225);
+}
+
+h1 {
+    color: rgb(25, 84, 233);
+    text-align: center;
+}
+
+p {
+    color: rgb(60, 98, 196);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+#para1 {
+    color: rgb(38, 71, 238);
+}
+
+.center {
+    color: rgb(90, 134, 189);
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(46, 65, 235);
+}
+
+h1,
+p {
+    color: brown;
+}
+
+.div1 p {
+    color: blue;
+}
+
+.div1 > p {
+    color: red;
+}
+
+.Shop:hover {
+    color: green;
+}
+
+
+
+.internal {
+    color: rgb(214, 23, 23);
+}
+
+.box {
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    border: 10px solid rgb(115, 160, 160);
+    margin: 0px;
+    background-color: rgb(178, 190, 212);
+    box-sizing: border-box;
+}
+
+.staticDemo {
+    position: static;
+    border: 2px solid black;
+}
+
+staticDemo {
+    position: static;
+    border: 3px solid black;
+}
+
+
+.relativeDemo {
+    position: relative;
+    right: 9px;
+    border: 2px solid black;
+}
+
+.relativeDemo {
+    position: relative;
+    right: 11px;
+    border: 2px solid black;
+}
+
+.fixedDemo {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    border: 4px solid rgb(109, 206, 169);
+}
+
+.fixedDemo:hover {
+    color: rgb(195, 207, 147);
+    background-color: rgb(210, 96, 121);
+}
+
